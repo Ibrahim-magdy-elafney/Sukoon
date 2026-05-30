@@ -1,0 +1,449 @@
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+body {
+
+    background: #0B3d2e;
+    color: #F5f5dc;
+    margin: 0;
+    font-family: "Tajawal", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@media (max-width: 768px) {
+
+
+    header {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px;
+        padding: 15px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+
+    }
+
+}
+
+.box {
+
+    font-family: "Tajawal", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    flex-direction: row;
+    width: 450px;
+    gap: 15px;
+
+    color: #fff;
+    border: 1px solid #ffe600;
+    align-items: center;
+    font-size: 10px;
+    margin-left: 3px;
+
+}
+
+.box:hover {
+
+    color: #a06b45;
+
+}
+
+.box li {
+    width: 100%;
+    text-align: center;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.zekr-box {
+
+    background: #1a1a1a;
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.zekr {
+
+    font-size: 20px;
+    line-height: 2;
+
+}
+
+.tasbeeh-btn {
+
+    background: #0ea5e9;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+.tasbeeh-btn:hover {
+
+    background: #0284c7;
+
+}
+
+.logo {
+
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    margin-right: 100px;
+
+}
+
+@media (max-width: 768px) {
+
+
+    section {
+        background: #222222;
+        margin: 10px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    footer {
+
+        background: #06281E;
+        margin: 10px;
+        padding: 15px;
+        border-radius: 10px;
+
+    }
+
+}
+
+h1,
+h2,
+h3 {
+
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #D4af37;
+
+}
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+}
+
+
+button {
+
+    background: #D4af37;
+    color: #06281e;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: fit-content;
+
+}
+
+@media (max-width: 768px) {
+    button {
+        width: 100%;
+    }
+}
+
+button:hover {
+
+    color: #f4d160;
+
+}
+
+.flex {
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+@media (max-width: 768px) {
+
+    .flex {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+    }
+
+}
+
+.header-flex {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 2px;
+
+}
+
+.section-flex {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    justify-content: flex-start;
+
+}
+
+.title-with-icon {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+}
+
+.text {
+
+    width: 100%;
+
+}
+
+img {
+
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+@media (max-width: 768px) {
+    img {
+        max-height: 250px;
+        object-fit: cover;
+    }
+}
+
+table {
+
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+@media (max-width: 768px) {
+    table {
+        max-height: 250px;
+        object-fit: cover;
+    }
+}
+
+.crescent-moon {
+
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+
+    margin-bottom: 7px;
+
+}
+
+.Star {
+
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+
+}
+
+.box a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+.box:hover {
+
+    color: #a06b45;
+
+}
+
+select {
+
+    color: white;
+    text-align: center;
+
+}
+
+.Number {
+
+    color: white;
+    text-align: center;
+
+}
+
+.Username {
+
+    color: white;
+    text-align: center;
+
+}
+
+.message-box {
+
+    width: 165px;
+    min-height: 80px;
+
+    color: white;
+    background: #1a1a1a;
+
+    border: 1px solid #c08457;
+    border-radius: 5px;
+
+    text-align: center;
+
+    resize: vertical;
+
+}
+
+.email {
+
+    color: white;
+    text-align: center;
+
+}
+
+.date {
+
+    color: white;
+    text-align: center;
+
+}
+
+.time {
+
+    color: white;
+    text-align: center;
+
+}
+
+.phone {
+
+    color: white;
+    text-align: center;
+
+}
+
+.Mainbox {
+
+    font-family: "Tajawal", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    list-style: none;
+    width: 300px;
+    font-size: 11px;
+
+}
+
+.Mainbox a {
+
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.Remembrances {
+
+    display: flex;
+    align-self: flex-end;
+    margin-top: 100px;
+
+}
+
+.Hadiths {
+
+    display: flex;
+    align-self: flex-end;
+    margin-top: 100px;
+
+}
+
+.Prayer-times {
+
+    display: flex;
+    align-self: flex-end;
+    margin-top: 100px;
+    justify-content: space-between;
+    margin-right: 50px;
+
+}
+
+.link {
+
+    color: #fff;
+
+}
+
+.Remembrances {
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .Remembrances {
+        flex-direction: column;
+    }
+}
